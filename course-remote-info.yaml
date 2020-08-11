@@ -18,6 +18,10 @@ topics:
   0:
   - title: World Wide Web
     theory_id: 6633
+  - title: HyperText Transfer Protocol
+    theory_id: 6569
+  - title: HTTP URL
+    theory_id: 6740
   - title: IDE
     theory_id: 3805
   - title: HTML basics

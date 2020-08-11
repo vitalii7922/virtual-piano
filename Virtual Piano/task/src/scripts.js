@@ -1,30 +1,15 @@
 document.addEventListener("keypress", function (event) {
-    switch (event.code) {
-        case 'KeyA':
-            print('A');
-            break;
-        case 'KeyS':
-            print('S');
-            break;
-        case 'KeyD':
-            print('D');
-            break;
-        case 'KeyF':
-            print('F');
-            break;
-        case 'KeyG':
-            print('G');
-            break;
-        case 'KeyH':
-            print('H');
-            break;
-        case 'KeyJ':
-            print('J');
-            break;
-        default:
-            console.warn(`\'${event.key}\' isn\'t used in the piano`);
-            break;
+    let letter = event.key;
+    let eventCode = event.code;
+    let whiteKeys = ['KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ'];
+    let blackKeys = ['KeyW', 'KeyE', 'KeyT', 'KeyY', 'KeyU'];
+    if (whiteKeys.includes(eventCode)) {
+        let audio = new Audio(`Audio/white_keys/${letter.toUpperCase()}.mp3`);
+        audio.play();
+    } else if (blackKeys.includes(eventCode)) {
+        let audio = new Audio(`Audio/black_keys/${letter.toUpperCase()}.mp3`);
+        audio.play();
     }
 });
 
-let print = (key) => console.log(`The \'${key}\' key is pressed.`);
+

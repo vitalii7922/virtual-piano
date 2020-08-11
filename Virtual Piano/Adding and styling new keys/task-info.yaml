@@ -465,6 +465,74 @@ files:
         }
     );
   learner_created: false
+- name: src/scripts.js
+  visible: true
+  text: |+
+    document.addEventListener("keypress", function (event) {
+        let letter = event.key;
+        let eventCode = event.code;
+        if (['KeyA', 'KeyS', 'KeyD', 'KeyF', 'KeyG', 'KeyH', 'KeyJ'].includes(eventCode)) {
+            let audio = new Audio(`Audio/white_keys/${letter.toUpperCase()}.mp3`);
+            audio.play();
+            // console.log(`The '${letter}' key is pressed.`);
+        }
+    });
+
+
+  learner_created: true
+- name: src/style.css
+  visible: true
+  text: |-
+    kbd {
+        display: inline-block;
+        width: 60px;
+        height: 120px;
+        background-color: white;
+        border: 2px solid grey;
+        margin-right: -8px;
+        padding: 120px 0 30px 0;
+    }
+
+
+    .container {
+        text-align: center;
+        font-size: 30px;
+        position: fixed;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+    }
+
+    body {
+        background: green;
+    }
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/101/stages/560/implement
-status: Unchecked
+status: Failed
+feedback:
+  message: |-
+    Fatal error in test #4, please send the report to support@hyperskill.org
+
+    Error: Evaluation failed: ReferenceError: whiteKeysElement is not defined
+        at __puppeteer_evaluation_script__:10:25
+        at ExecutionContext._evaluateInternal (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\ExecutionContext.js:122:13)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at ExecutionContext.evaluate (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\ExecutionContext.js:48:12)
+        at Object.testPage (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\hs-test-web\\stageTest.js:259:22)
+        at stageTest (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\Virtual Piano\\task\\hstest\\test.js:43:18)
+        at Object.<anonymous> (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\Virtual Piano\\task\\hstest\\test.js:442:22)
+      -- ASYNC --
+        at ExecutionContext.<anonymous> (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\helper.js:111:15)
+        at DOMWorld.evaluate (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\DOMWorld.js:112:20)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+      -- ASYNC --
+        at Frame.<anonymous> (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\helper.js:111:15)
+        at Page.evaluate (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\Page.js:860:43)
+        at Page.<anonymous> (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\helper.js:112:23)
+        at Object.testPage (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\hs-test-web\\stageTest.js:259:33)
+        at processTicksAndRejections (internal/process/task_queues.js:97:5)
+        at stageTest (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\Virtual Piano\\task\\hstest\\test.js:43:18)
+        at Object.<anonymous> (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\Virtual Piano\\task\\hstest\\test.js:442:22)
+  time: Tue, 11 Aug 2020 19:33:44 UTC
 record: -1

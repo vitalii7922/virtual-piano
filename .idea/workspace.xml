@@ -19,11 +19,29 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1760fd57-0163-4875-89ec-a99dace23aa1" name="Default Changelist" comment="aligned text in piano keys">
-      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/scripts.js" afterDir="false" />
+    <list default="true" id="1760fd57-0163-4875-89ec-a99dace23aa1" name="Default Changelist" comment="completed third stage">
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/black_keys/E.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/black_keys/T.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/black_keys/U.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/black_keys/W.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/black_keys/Y.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/A.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/D.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/F.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/G.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/H.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/J.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/Audio/white_keys/S.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageData" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/frameworkLessonHistory/storage.storageRecordIndex" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Virtual Piano/Application functionality/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/Application functionality/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/Adding and styling new keys/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/Adding and styling new keys/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/Let there be music/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/Let there be music/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/lesson-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/lesson-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/hstest/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/hstest/test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,17 +52,21 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fufbE7vSrGCBqmrdgcLtu8jb1h" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="12.18.3" />
     <property name="javascript.nodejs.core.library.typings.version" value="12.12.54" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Virtual Piano/task/audio" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -55,6 +77,11 @@
     <property name="nodejs_interpreter_path" value="$PROJECT_DIR$/../../../../Program Files/nodejs/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Goth2\WebstormProjects\Virtual Piano\Virtual Piano\task\audio" />
+    </key>
   </component>
   <component name="RunManager" selected="JavaScript Debug.index.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63343/Virtual Piano/Virtual Piano/task/src/index.html" useBuiltInWebServerPort="true">
@@ -83,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597072967989</updated>
       <workItem from="1597073111574" duration="7272000" />
-      <workItem from="1597145476447" duration="10024000" />
+      <workItem from="1597145476447" duration="16650000" />
     </task>
     <task id="LOCAL-00001" summary="completed first stage">
       <created>1597074654298</created>
@@ -99,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597164092368</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="completed third stage">
+      <created>1597167848966</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1597167848966</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,9 +151,11 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="completed first stage" />
     <MESSAGE value="aligned text in piano keys" />
-    <option name="LAST_COMMIT_MESSAGE" value="aligned text in piano keys" />
+    <MESSAGE value="completed third stage" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed third stage" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597078924769">
@@ -198,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597074406660" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597164094570">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597167850275">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597164094570" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597167850275" />
     <state x="760" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597074604418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
