@@ -335,6 +335,13 @@ files:
         transform: translate(-50%, -50%);
     }
   learner_created: true
+- name: src/scripts.js
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/101/stages/558/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/101/stages/558/implement">JetBrains
+    Academy</a>
+  time: Tue, 11 Aug 2020 17:41:43 UTC
+record: 3

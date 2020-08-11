@@ -1,8 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="1760fd57-0163-4875-89ec-a99dace23aa1" name="Default Changelist" comment="completed first stage">
-      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/style.css" afterDir="false" />
+    <list default="true" id="1760fd57-0163-4875-89ec-a99dace23aa1" name="Default Changelist" comment="aligned text in piano keys">
+      <change afterPath="$PROJECT_DIR$/Virtual Piano/task/src/scripts.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/Application functionality/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/Application functionality/task-info.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,6 +83,7 @@
       <option name="presentableId" value="Default" />
       <updated>1597072967989</updated>
       <workItem from="1597073111574" duration="7272000" />
+      <workItem from="1597145476447" duration="10024000" />
     </task>
     <task id="LOCAL-00001" summary="completed first stage">
       <created>1597074654298</created>
@@ -70,15 +92,34 @@
       <option name="project" value="LOCAL" />
       <updated>1597074654298</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="aligned text in piano keys">
+      <created>1597164092368</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1597164092368</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="completed first stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed first stage" />
+    <MESSAGE value="aligned text in piano keys" />
+    <option name="LAST_COMMIT_MESSAGE" value="aligned text in piano keys" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597078924769">
@@ -157,10 +198,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597074406660" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597074777694">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597164094570">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597074777694" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597164094570" />
     <state x="760" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597074604418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
