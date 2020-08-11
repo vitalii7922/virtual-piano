@@ -512,10 +512,10 @@ feedback_link: https://hyperskill.org/projects/101/stages/560/implement
 status: Failed
 feedback:
   message: |-
-    Fatal error in test #4, please send the report to support@hyperskill.org
+    Fatal error in test #8, please send the report to support@hyperskill.org
 
-    Error: Evaluation failed: ReferenceError: whiteKeysElement is not defined
-        at __puppeteer_evaluation_script__:10:25
+    Error: Evaluation failed: TypeError: Cannot read property 'getBoundingClientRect' of undefined
+        at __puppeteer_evaluation_script__:6:52
         at ExecutionContext._evaluateInternal (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\ExecutionContext.js:122:13)
         at processTicksAndRejections (internal/process/task_queues.js:97:5)
         at ExecutionContext.evaluate (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\node_modules\\puppeteer\\lib\\ExecutionContext.js:48:12)
@@ -534,5 +534,5 @@ feedback:
         at processTicksAndRejections (internal/process/task_queues.js:97:5)
         at stageTest (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\Virtual Piano\\task\\hstest\\test.js:43:18)
         at Object.<anonymous> (C:\\Users\\Goth2\\WebstormProjects\\Virtual Piano\\Virtual Piano\\task\\hstest\\test.js:442:22)
-  time: Tue, 11 Aug 2020 19:33:44 UTC
+  time: Tue, 11 Aug 2020 19:51:17 UTC
 record: -1
