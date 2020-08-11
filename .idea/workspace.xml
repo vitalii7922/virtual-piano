@@ -19,12 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1760fd57-0163-4875-89ec-a99dace23aa1" name="Default Changelist" comment="completed fourth stage">
+    <list default="true" id="1760fd57-0163-4875-89ec-a99dace23aa1" name="Default Changelist" comment="commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Virtual Piano/Adding and styling new keys/task-info.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/Adding and styling new keys/task-info.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Virtual Piano/task/hstest/test.js" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/hstest/test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Virtual Piano/task/src/scripts.js" beforeDir="false" afterPath="$PROJECT_DIR$/Virtual Piano/task/src/scripts.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <updated>1597072967989</updated>
       <workItem from="1597073111574" duration="7272000" />
       <workItem from="1597145476447" duration="16650000" />
-      <workItem from="1597174676389" duration="1011000" />
+      <workItem from="1597174676389" duration="1686000" />
     </task>
     <task id="LOCAL-00001" summary="completed first stage">
       <created>1597074654298</created>
@@ -124,7 +123,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597174728907</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="commit">
+      <created>1597175719501</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1597175719501</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,7 +154,8 @@
     <MESSAGE value="aligned text in piano keys" />
     <MESSAGE value="completed third stage" />
     <MESSAGE value="completed fourth stage" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed fourth stage" />
+    <MESSAGE value="commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1597078924769">
@@ -227,10 +234,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="461" y="165" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597074406660" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597174731655">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1597175721206">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597174731655" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1597175721206" />
     <state x="760" y="254" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog" timestamp="1597074604418">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
